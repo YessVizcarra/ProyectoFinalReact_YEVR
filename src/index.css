@@ -1,3 +1,8 @@
+:root {
+  --primary-blue: #256Edc;
+  --primary-white: white;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,161 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-primar {
+  background-color: var(--primary-blue);
+  margin: 0;
+  height:310px;
+}
+
+.fs-e {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fs-c {
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+.text-second {
+  color: #b5b5b5;
+}
+
+.p-t {
+  padding-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mgt-4 {
+  margin-top: 3.5rem;
+}
+
+.ms-l {
+  margin: 0 auto;
+}
+
+.mr-1 {
+  margin-right: 15rem;
+}
+
+.ml-s{
+  margin-left: 50%;
+  margin-bottom: 2rem;
+}
+
+.mg-l {
+  margin-right: 35rem;
+}
+.busqueda {
+  width: 650px;
+  height: 250px;
+  background-color: var(--primary-white);
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  border-bottom: 3px inset #D1D1D1;
+}
+
+.hg{
+  height: 200px;
+}
+
+.filtros {
+  width: 650px;
+  background-color: var(--primary-white);
+  margin: 0 auto;
+ 
+}
+
+.filtros li:last-of-type{
+  width: 650px;
+  background-color: var(--primary-white);
+  margin: 0 auto;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom: 3px inset #D1D1D1;
+}
+
+.contenido {
+  width: 450px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+
+
+.input-p {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #D1D1D1;
+  text-align: center;
+  height: 40px;
+}
+
+.button-p {
+  background-color: #256Edc;
+  border: 1px solid #256Edc;
+  border-radius: 2px;
+}
+
+.button-r {
+  background-color: #cf3476;
+  border: 1px solid #cf3476;
+  border-radius: 3px;
+  width: 230px;
+  align-items: flex-end;
+  color: white;
+  font-size: 12px;
+
+}
+
+.button-r2 {
+  background-color: #cf3476;
+  border: 1px solid #cf3476;
+  border-radius: 3px;
+  width: 200px;
+  align-items: flex-end;
+  color: white;
+  font-size: 12px;
+
+}
+
+.alineacion {
+  text-align: left;
+}
+
+.alineacion-2 {
+  width: 400;
+  margin-left: 20px;
+}
+
+.contenedor {
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contenedor-s {
+  width: 400px;
+}
+
+.fs-d {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.px{
+    width: 50px;
+    height: 50px;
+    background-color: #256Edc;
+    border: solid 1px #256Edc;
+    border-radius: 50%;
+    text-align: center;
+}
+
